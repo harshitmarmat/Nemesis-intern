@@ -1,0 +1,31 @@
+.container {
+  margin: 3rem auto;
+  width: 95%;
+  max-width: 35rem;
+  border-radius: 6px;
+  background-color: #38015c;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  text-align: left;
+  color: white;
+}
+
+.container ul{
+  padding-left: 20px;
+  width: 90%;
+}
+
+.container ul li{
+  list-style:  none;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid darkgrey;
+  margin: 1rem;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.container ul li span{
+  position: absolute;
+  left: 8rem;
+}
